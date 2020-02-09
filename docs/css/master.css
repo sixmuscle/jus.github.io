@@ -1,6 +1,13 @@
 body {
     font-family: Prompt, sans-serif;
-    background-image: url(../images/bg.jpg)
+    background-image: url(../images/bg2.jpg);
+    background-size:cover;
+    background-attachment: fixed;
+}
+
+.container-fluid{
+    padding-left: 0px;
+    padding-right:0px;
 }
 
 .btn{
@@ -39,7 +46,7 @@ article {
 }
 
 .bg-custom {
-    background: rgba(255, 255, 255, .404)
+    background: rgba(255, 255, 255, 0.6);
 }
 
 .navbar img {
